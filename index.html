@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <h1 class="text-center">Game Library</h1>
+
+          <form id="lib-add-form">
+            <div class="text-center">
+              <h4>Add a library.</h4>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon">Name:</span>
+                <input id="lib-name" type="text" class="form-control" placeholder="Library Name">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary" type="submit">Add</button>
+                </span>
+              </div>
+            </div>
+          </form>
+
+          <form id="game-form">
+
+          <div class="form-group">
+              <label>Add to:</label>
+              <select id="lib-choice" class="form-control">
+
+              </select>
+          </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon">Game Name:</span>
+                <input id="game-name" type="text" class="form-control" placeholder="Game Name">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon">Game Genre:</span>
+                <input id="game-genre" type="text" class="form-control" placeholder="Game Genre">
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button class="btn btn-primary btn-block" type="submit">Add</button>
+              <button id="lib-add-btn" class="btn btn-default btn-block" type="button">Create Another Library</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+      <!-- <div class="row game-library" id="lib"> -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/class.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
